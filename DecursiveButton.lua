@@ -1,0 +1,15 @@
+-- DecursiveButton.lua
+DEFAULT_CHAT_FRAME:AddMessage("|cff00ff00Decursive Button loaded:|r Click to decurse, drag to move.")
+
+DecursiveCustomButton = CreateFrame("Button", "DecursiveCustomButton", UIParent)
+DecursiveCustomButton:SetWidth(44)
+DecursiveCustomButton:SetHeight(44)
+DecursiveCustomButton:SetPoint("CENTER", UIParent, "CENTER", 0, 0)
+DecursiveCustomButton:SetMovable(true)
+DecursiveCustomButton:EnableMouse(true)
+DecursiveCustomButton:RegisterForClicks("LeftButtonUp", "RightButtonUp")
+DecursiveCustomButton:RegisterForDrag("LeftButton")
+DecursiveCustomButton:SetScript("OnDragStart", function() this:StartMoving() end)
+DecursiveCustomButton:SetScript("OnDragStop", function() this:StopMovingOrSizing() end)
+DecursiveCustomButton:SetNormalTexture("Interface\\Icons\\Ability_Creature_Disease_02")
+DecursiveCustomButton:SetScript("OnClick", function() SlashCmdList["DECURSIVE"]("") end)

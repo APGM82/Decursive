@@ -2855,5 +2855,3 @@ function Dcr_Cast_CureSpell( spellID, Unit, AfflictionType, ClearCurrentTarget) 
 end --}}}
 -- }}}
 -------------------------------------------------------------------------------
-
-
