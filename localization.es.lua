@@ -75,15 +75,15 @@ if ( GetLocale() == "esES" or GetLocale() == "esMX" ) then
     DCR_PET_FEL_CAST  = "Devorar magia";
     DCR_PET_DOOM_CAST = "Disipar magia";
 
-    DCR_SPELL_CURE_DISEASE        = 'Curar enfermedad';
-    DCR_SPELL_ABOLISH_DISEASE     = 'Suprimir enfermedad';
+    DCR_SPELL_CURE_DISEASE        = 'Curar Enfermedad';
+    DCR_SPELL_ABOLISH_DISEASE     = 'Suprimir Enfermedad';
     DCR_SPELL_PURIFY              = 'Purificar';
     DCR_SPELL_CLEANSE             = 'Limpiar';
-    DCR_SPELL_DISPELL_MAGIC       = 'Disipar magia';
-    DCR_SPELL_CURE_POISON         = 'Curar veneno';
-    DCR_SPELL_ABOLISH_POISON      = 'Suprimir veneno';
-    DCR_SPELL_REMOVE_LESSER_CURSE = 'Eliminar maldición inferior';
-    DCR_SPELL_REMOVE_CURSE        = 'Eliminar maldición';
+    DCR_SPELL_DISPELL_MAGIC       = 'Disipar Magia';
+    DCR_SPELL_CURE_POISON         = 'Curar Veneno';
+    DCR_SPELL_ABOLISH_POISON      = 'Suprimir Veneno';
+    DCR_SPELL_REMOVE_LESSER_CURSE = 'Eliminar Maldición Inferior';
+    DCR_SPELL_REMOVE_CURSE        = 'Eliminar Maldición';
     DCR_SPELL_PURGE               = 'Purgar';
     DCR_SPELL_RANK_1              = 'Rango 1';
     DCR_SPELL_RANK_2              = 'Rango 2';
