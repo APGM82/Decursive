@@ -10,6 +10,7 @@ localization.lua
 localization.fr.lua
 localization.de.lua
 localization.tw.lua
+localization.es.lua
 DecursiveButton.lua
 Decursive.lua
 Decursive.xml
