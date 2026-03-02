@@ -10,7 +10,8 @@ This fork adds a **draggable button** that lets you trigger Decursive with a sin
 - **Drag** the button to move it anywhere on screen
 
 The button loads automatically and shows an icon in the center of your screen.
+Now localized in SPANISH
 
 ---
 
-*Forked from [MarcelineVQ/Decursive](https://github.com/MarcelineVQ/Decursive)*
+*Forked from [MarcelineVQ/Decursive](https://github.com/MarcelineVQ/Decursive)* by Antonio Pérez
