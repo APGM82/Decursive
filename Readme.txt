@@ -53,6 +53,16 @@ COMMANDS YOU CAN USE:
 /dcrdebug
 ---> Display Debug information
 
+BUTTON COMMANDS (new in this fork):
+/dcrsize <size>
+---> Set the Decursive button size in pixels (min: 20, max: 100). Without argument shows current size.
+/dcricon <number>
+---> Change the Decursive button icon (1-12 available). Without argument shows available icons.
+/dcrbtnreset
+---> Reset the Decursive button to default: size 44px, icon #1, centered on screen.
+
+TIP: You can also use Shift + Mouse Wheel to resize the button interactively, and Shift + Right Click to cycle through icons.
+
 NOTE that all these commands can be bond to a key.
 
 ACTIONS YOU CAN TAKE:
