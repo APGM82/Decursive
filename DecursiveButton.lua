@@ -132,6 +132,25 @@ SlashCmdList["DECURSIVEICON"] = function(msg)
     end
 end
 
+-- Slash command to reset button: /dcrbtnreset
+SLASH_DECURSIVEBTNRESET1 = "/dcrbtnreset"
+SlashCmdList["DECURSIVEBTNRESET"] = function(msg)
+    -- Reset size to default
+    DecursiveCustomButton:SetWidth(DCR_BUTTON_DEFAULT_SIZE)
+    DecursiveCustomButton:SetHeight(DCR_BUTTON_DEFAULT_SIZE)
+    -- Reset icon to default
+    DecursiveCustomButton:SetNormalTexture(DCR_BUTTON_ICONS[DCR_BUTTON_DEFAULT_ICON])
+    -- Reset position to center
+    DecursiveCustomButton:ClearAllPoints()
+    DecursiveCustomButton:SetPoint("CENTER", UIParent, "CENTER", 0, 0)
+    -- Update saved variables
+    if Dcr_Saved then
+        Dcr_Saved.ButtonSize = DCR_BUTTON_DEFAULT_SIZE
+        Dcr_Saved.ButtonIcon = DCR_BUTTON_DEFAULT_ICON
+    end
+    DEFAULT_CHAT_FRAME:AddMessage("|cff00ff00Decursive Button reset:|r Size " .. DCR_BUTTON_DEFAULT_SIZE .. "px, Icon #" .. DCR_BUTTON_DEFAULT_ICON .. ", centered.")
+end
+
 -- Register for VARIABLES_LOADED to restore saved settings
 local sizeLoader = CreateFrame("Frame")
 sizeLoader:RegisterEvent("VARIABLES_LOADED")
